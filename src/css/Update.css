@@ -1,0 +1,277 @@
+.modals-confirm {
+    color: #434e65;
+    /* width: 525px; */
+    margin: 0px;
+}
+
+.modals-confirm .modals-contents {
+    padding: 0px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+.modals-confirm h4 {
+    text-align: center;
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.modals-confirm .form-control,
+.modals-confirm .btn {
+    min-height: 40px;
+    border-radius: 3px;
+}
+
+.modals-confirm .close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #fff;
+    text-shadow: none;
+    opacity: 0.5;
+}
+
+.modals-confirm .close:hover {
+    opacity: 0.8;
+}
+
+.modals-confirm .icon-box {
+    color: #fff;
+    width: 95px;
+    height: 95px;
+    display: inline-block;
+    border-radius: 50%;
+    z-index: 9;
+    border: 5px solid #fff;
+    padding: 0px;
+    text-align: center;
+}
+
+.modals-confirm .icon-box i {
+    font-size: 64px;
+    margin: -4px 0 0 -4px;
+}
+
+.modals-confirm .btn {
+    color: #fff;
+    border-radius: 4px;
+    background: #eeb711;
+    text-decoration: none;
+    transition: all 0.4s;
+    line-height: normal;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 6px 20px;
+    border: none;
+}
+
+.modals-confirm .btn:hover,
+.modals-confirm .btn:focus {
+    background: #eda645;
+    outline: none;
+}
+
+.modals-confirm .btn span {
+    margin: 1px 3px 0;
+    float: left;
+}
+
+.modals-confirm .btn i {
+    margin-left: 1px;
+    font-size: 20px;
+    float: right;
+}
+
+input[type="file"] {
+    font-size: 17px;
+    /* color: transparent; */
+
+
+}
+
+
+::file-selector-button {
+    color: white;
+    background-color: #fb9e8c;
+    border: none;
+    height: 45px;
+    margin-top: -10px;
+    
+    border-radius: 2px;
+}
+
+.chooseFile,
+.file-select {
+
+    width: 100%;
+    height: 65px;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+.chooseFile * {
+    margin: 0px;
+    padding: 2px;
+
+
+}
+
+.chooseFile {
+    line-height: 42px;
+    height: 42px;
+
+    position: relative;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+    left: 0px;
+
+}
+
+.file-select {
+
+    border: 2px solid black;
+
+
+    height: 35px;
+
+
+
+}
+
+
+.form-control {
+    border: 1px solid #cfd1d8;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background: #ffffff;
+    color: #2e323c;
+}
+
+#addPuppy {
+    color: white;
+
+    background-color: #fb9e8c;
+}
+
+.card {
+    background: #ffffff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 1rem;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.custom-file-input::before {
+    content: 'Select some files';
+    display: inline-block;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+}
+
+.custom-file-input:hover::before {
+    border-color: black;
+}
+
+.custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+#ImgDiv {
+    display: none;
+}
+
+.modals-confirm {
+    width: 100%;
+}
+
+
+
+/* CSS for box view */
+.modals {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 99999;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* modals Content */
+.modals-contents {
+    background-color: transparent;
+    margin: auto;
+    padding-top: 0px;
+    border: 1px solid #888;
+    border: none;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 99999;
+    border: none;
+    background-color: transparent;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.updatingPuppy {
+    margin: 0;    
+    padding-top: 0px;
+    color: #2e323c;
+    position: relative;
+    height: 100%;
+}
+.form-group {
+    margin-top: 10px;
+}
+.text-right{
+    float: right;
+}
+
+@media screen and (max-width:676px){
+    .modals-contents {
+        width: 100%;
+    }
+}

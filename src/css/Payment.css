@@ -1,0 +1,192 @@
+.tbwrapper {
+    width: 100%;
+    background: #fff;
+    padding: 0px;
+    margin: 100px 0px 0px 0px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .25);
+}
+
+.tbtitle {
+    border-bottom: 1px solid #e9e9e9;
+    background: rgb(0, 50, 74);
+    color: #fff;
+}
+
+.heading-part {
+    padding: 10px 30px;
+    float: left;
+}
+
+.filter-btn .btn-group .btn{
+    min-width: 50px;
+    padding: 10px;
+}
+
+.filter-btn {
+    margin: 0px;
+    text-align: right;
+    padding-top: 20px;
+}
+
+.table thead tr th{
+    border-color: #e9e9e9;
+    padding: 10px 30px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    vertical-align: middle;
+}
+.table tbody tr td{
+    border-color: #e9e9e9;
+    padding: 10px 10px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    vertical-align: middle;
+}
+
+.table thead tr th:first-child {
+    width: 40px;
+}
+.table tbody tr td:first-child {
+    text-align: center;
+    margin:0px;
+    padding-top:10px;
+}
+.table thead tr th:nth-child(9){
+    width: 70px;
+}
+.table thead tr th:last-child {
+    width: 100px;
+}
+
+.tbstriped tbody tr:nth-of-type(odd) {
+    background-color: #fcfcfc;
+}
+
+.tbstriped.tbhover tbody tr:hover {
+    background: #f5f5f5;
+}
+
+.table td a {
+    color: #2196f3;
+}
+
+.tbstripedDiv {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.table td .btn.manage {
+    padding: 2px 10px;
+    background: #37BC9B;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.table td .btn.manage:hover {
+    background: #2e9c81;
+} 
+
+/* popup update box */
+/* CSS for box view */
+.popdata {
+    display: none;
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding-top: 0px;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.popdata-contents {
+
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    border: 1px solid #888;
+    border: none;
+    width: 100%;
+}
+
+#popup-form {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+/* The Close Button */
+.popdata .popdata-contents .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 99999999;
+    border: none;
+
+    margin-top: 70px;
+    background-color: red;
+}
+
+.popdata .popdata-contents .close:hover,
+.popdata .popdata-contents .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.popdata .popdata-contents .updatingTable form {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.popdata .popdata-contents .updatingTable .container {
+    width: 100%;
+    margin: 50px auto 0px auto;
+    padding: 40px;
+    background-color: #fff;
+
+}
+
+.text-right .btn {
+    background-color: #abcd;
+    border-radius: 10px;
+}
+.text-right .btn:hover{
+    background-color: #000;
+    border: 2px solid black;
+    color: white;
+}
+#updatePuppy {
+    color: white;
+    background-color: #fb9e8c;
+}
+#updatePuppy:hover{
+    border: 2px solid #fb9e8c;
+    color: #fb9e8c;
+    background-color: white;
+}
+.text-right {
+    text-align: right;
+    width: 100%;
+}
+@media screen and (max-width: 676px) {
+    .filter-btn {
+        font-size: 5px;
+        padding: 0px;
+        width: 100%;
+        color: #2196f3;
+    }
+
+    .filter-btn * {
+        margin: 0px;
+        padding: 0px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .filter-btn .btn-group .btn{
+        font-size: 9px;
+    }
+} 
